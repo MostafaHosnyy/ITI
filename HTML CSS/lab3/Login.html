@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+<body>
+    <form action="home.html">
+        <form >
+            <fieldset >
+                <legend style="color: red;">Log In</legend>
+                <br>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <label for="UserName">User Name:</label>
+                            </td>
+                            <td>
+                                <input type="text" name="UserName" id="UserName" placeholder="Enter your name" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="password">passWord:</label>
+                            </td>
+                            <td>
+                                <input type="password" name="password" id="password" placeholder="Type Here" />
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div>
+                    <label for="location">Select Your Location:</label>
+                    <select name="location" id="location">
+                        <optgroup label="Africa">
+                            <option>Egypt</option>
+                            <option>Eudan</option>
+                            <option>namibia</option>
+                        </optgroup>
+                        <optgroup label="europe">
+                            <option>France</option>
+                            <option>Russia</option>
+                            <option>UK</option>
+                        </optgroup>
+                        <optgroup disabled label="North America">
+                            <option>Canada</option>
+                            <option>Mexico</option>
+                            <option>USA</option>
+                        </optgroup>
+                    </select>
+                </div>
+            <br>
+            <div>
+                <input id="c1" type="checkbox">
+                <label name="c1" for="c1">RememberMe</label>
+            </div>
+             <div>
+                    <input type="submit">
+                </div>
+            </fieldset>
+        </form>
+</body>
+</html>

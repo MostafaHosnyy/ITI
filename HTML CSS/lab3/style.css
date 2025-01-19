@@ -1,0 +1,32 @@
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+body{
+    background-color:rgb(204, 200, 195);
+}
+#title{
+    text-align: right;
+}
+.header{
+    text-align: center;
+}
+hr{
+    height: 1px;
+    background-color: black;
+}
+.info{
+    text-align: center;
+}
+form{
+    /* padding-top: 50px; */
+    margin: 100px 300px 0 300px ;
+    box-shadow: 5px 5px; 
+
+}
+label{
+    margin-right: 50px;
+ 
+}
+.formInput input{
+    margin: 5px;
+}

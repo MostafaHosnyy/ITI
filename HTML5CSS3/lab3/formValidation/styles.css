@@ -1,0 +1,22 @@
+#text:valid + p {
+  display: none;
+}
+#email:valid + p {
+  display: none;
+}
+
+#text {
+  border: 2px solid red ;
+
+}
+#email {
+  border: 2px solid red ;
+}
+#text:valid {
+  border: 2px solid blue ;
+
+}
+#email:valid {
+  border: 2px solid blue ;
+}
+

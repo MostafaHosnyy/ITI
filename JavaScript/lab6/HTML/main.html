@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lab 6 js</title>
+    <link href="../Styles/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+     <form action="profile.html">
+         <label for="name">Enter Your Name Please:</label>
+        <input id="userName" type="text" name="name" >
+        <br>
+        <br>
+        <label for="age">Enter Your Age Please:</label>
+        <input id="userAge" type="number" name="Age">
+        <br>
+        <br>
+        <label for="gender"> Select You gender Please:</label>
+        
+          <img src="../Images/M.jpg">
+          <input id="male" type="radio" name="gender" value="Male">
+          <img src="../Images/F.jpg">
+          <input id="female" type="radio" name="gender" value="Female">
+        <br>
+        <br>
+        <label for="cars">Select Your favorite Color: </label>
+        <select name="cars" id="Colors">
+          <option value="red">red</option>
+          <option value="green">green</option>
+          <option value="blue">blue</option>
+        </select>
+        <br>
+        <br>
+        <input type="submit" onclick="addCookiesNow()">
+    </form> 
+
+    
+
+   <script src="../Libraries/cookieLibrary.js"></script>
+    <script src="../Scripts/script.js"></script>
+  </body>
+</html>
